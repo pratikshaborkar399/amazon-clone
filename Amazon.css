@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/* Complete Navbar */
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(/amazon\ logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+
+}
+
+/* Deliver to */
+.addressfirst {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+}
+
+/* India */
+.addresssecond {
+    font-size: 1rem;
+    margin: 3px;
+}
+
+/* Location icon */
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* All details added India, icon and deliver to  */
+.navaddress {
+    border: 2px solid transparent;
+
+}
+
+.navaddress:hover {
+    border: 1px solid white;
+}
+
+/* options for category */
+select {
+    width: 50px;
+    height: 40px;
+    background-color: #ece6e6;
+
+}
+
+/* All data  from all categories to search icon */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover {
+    border: 3px solid orange;
+
+}
+
+/* icon of search(magnifying-glass) */
+.search-icon {
+    background-color: #febd68;
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+/* Search Amazon */
+.search-input {
+    font-size: 1rem;
+    padding: 7px 10px 10px 0px;
+    width: 500px;
+    border: none;
+}
+
+/* Search for all categories */
+.search-select {
+    background-color: #f8f5f5eb;
+    width: 50px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+
+}
+
+/* to change the lanuage */
+.changelang {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 0px 6px 5px 7px;
+    align-items: center;
+}
+
+.changelang:hover {
+    border: 1px solid white;
+}
+
+/* For lanuage selection */
+.selectlang {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+}
+
+/* US flag logo */
+i {
+    margin: 0px 2px 1px 0px;
+}
+
+/* Hello, sign in */
+span {
+    font-size: 0.75rem;
+}
+
+/* & Orders */
+.nav-second {
+    font-size: 0.90rem;
+    font-weight: bold;
+}
+
+/* card icon */
+.nav-cart i {
+    font-size: 30px;
+}
+
+/* card */
+.nav-cart {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* all details of panel */
+.panel {
+    background-color: #232F3E;
+    color: #ffffff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* With all option*/
+.panel-options p {
+    display: inline;
+    /* margin-left: 15px; */
+    margin: 5px 0px 6px;
+    padding: 8px 10px;
+
+}
+
+.panel-options {
+    width: 95%;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* all and icon  */
+.panel-all i {
+    font-size: 20px;
+
+}
+
+.panel-all {
+    padding: 8px 9px;
+}
+
+/* all options */
+.panel-options p:hover {
+    border: 1px solid white;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url(/happy_mother_day.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* link  */
+.hero-msg a {
+    color: #2162A1;
+    text-decoration: none;
+}
+
+.hero-msg a:hover {
+    text-decoration: underline;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    padding: 10px 14px;
+    width: 95%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+/* shop section where you can click and shop for all the products   */
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #facdf6;
+}
+
+.box-content {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    color: #0f1111;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    background-color: white;
+    
+
+/* box image */
+.box-img {
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+    background-position: initial;
+    
+}
+
+}
+
+.box-content a {
+    text-decoration: none;
+    color: #2162A1;
+    font-size: 0.85rem;
+}
+
+.box-content a:hover {
+    text-decoration: underline;
+}
+
+.box-content p {
+    font-size: 0.75rem;
+}
+/* footer */
+footer{
+    margin-top: 20px;
+}
+.foot-panel1 {
+    background-color: rgb(55, 71, 90);
+    padding: 15px 10px;
+    color: white;
+    text-align: center;
+    font-size: 0.85rem;
+}
+/* foot-panel2 */
+
+.foot-panel2{
+    background-color: #232F3E;
+    color:white;
+    display:flex;
+    height:340px;
+    justify-content: space-evenly;
+    
+}
+.foot-panel2 a{
+    color: white;
+    text-decoration: none;
+}
+ul a {
+    display:block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color:#dddddd;
+}
+ul p{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+/* footer panel 3  */
+.foot-panel3 {
+    background-color:#232F3E;
+    color: white;
+    border-top: 0.2px solid rgb(210, 202, 202);
+}
